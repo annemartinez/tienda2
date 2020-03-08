@@ -1,0 +1,214 @@
+﻿body
+{
+  background-image: url(../imagenes/Laura-Pausini-Byblos-Milano_01.jpg);
+  margin: 10px auto;
+  width: 95%;
+}
+header>h1
+{
+	letter-spacing: 5px; /*Espacio entre letras*/
+	text-transform: uppercase;/*Transformación del texto a mayúsculas*/
+	font-weight:bold;/*Fuente en negritas*/
+  text-align: center;/*Alineación del texto*/
+  text-shadow:rgba(240, 169, 13, 0.75) 6px 6px 8px; /* los tres números indican distancia horizontal, vertical y difuminado*/
+}
+.logo-left
+{
+	float:left;
+	padding: 20px 0px 0px 20px; /*Superior, derecho, inferior, izquierdo*/
+  width: 290px;
+	height: 100px;
+}
+.logo-right
+{
+	float:right;
+	padding: 20px 20px 0px 20px;
+	width: 120px;
+	height: 120px;
+}
+header
+{
+  width:100%; /* Establecemos que el header abarque el 100% del documento */
+  overflow:hidden; /* Eliminamos errores de float */
+  background-color:rgb(226, 217, 121);
+  margin-bottom:0px;
+  padding: 0px;
+  border-radius: 25px 25px 0px 0px; /*superior, derecho, inferior, izquierdo*/
+  border-style: none;
+}
+.contenedor
+{
+  padding: 10px 20px 10px 20px; /*Superior, derecho, inferior, izquierdo*/
+	background: white;
+	border-radius: 2em; /* redondea el borde*/
+  box-shadow: 0px 5px 3px rgba(0,0,0, .4);
+}
+nav
+{
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+nav ul
+{
+	list-style: none;
+}
+nav li
+{
+    display: inline-block;
+    margin-right: 2px;
+    margin-top: 0.2em;
+  }
+section
+{
+	float: left;
+	width: 100%;
+	text-align:justify;
+text-transform: uppercase;
+letter-spacing
+	margin-top: 20px;
+}
+article
+{
+	margin-bottom: 5px;
+	padding: 10px;
+	border-radius: 10px 10px 10px 10px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #2f0a30;
+}
+.boton
+{
+  background-color: yellow;
+  color:#000;
+  display: inline-block;
+  font-size: 1em;
+  margin: 5px;
+  padding: 10px 0px;
+  text-align: center;
+letter-spacing: 3px;
+  width: 160px;
+  text-decoration: none;
+  box-shadow: 0px 3px 5px #373c3c;
+transition: 0.3s;
+}
+.boton.redondo
+{
+  border-radius: 60px;
+}
+.boton.azul
+{
+  background-color: darkorchid;
+	box-shadow: 0px 3px 5px #9f1694;
+
+}
+.boton:hover
+{
+transform: scale (1.2);
+  background-color: rgb(102, 24, 92);
+	box-shadow: 0px 3px 5px rgb(98, 13, 78);
+	padding-top: 7px;
+	color: #fff;
+
+}
+aside{
+	float: right;
+	width: 30%;
+	text-align: justify;
+	margin-top: 0px;
+}
+blockquote
+{
+	margin-bottom: 5px;
+	padding: 10px;
+	border-radius: 10px 10px 10px 10px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #1b0cc4;
+}
+footer
+{
+	width:100%; /* Establecemos que el header abarque el 100% del documento */
+	overflow:hidden; /* Eliminamos errores de float */
+	background-color:#ddcc77;
+	margin-bottom:0px;s
+	padding: 0px;
+	border-radius: 0px 0px 25px 25px; /*superior, derecho, inferior, izquierdo*/
+	border-style: none;
+}
+.izquierda
+{
+	float: left;
+}
+.derecha
+{
+	float: right;
+	padding-right: 20px;
+}
+footer>p
+{
+text-align: center;
+color: rgb(89, 38, 93);
+font-size: 10px;
+text-transform: upercase;
+}
+.botonredes
+{
+display: inline-flex;
+width: 15px;
+height: 15px;
+padding: 10px;
+background-color:rgb(178, 66, 240);
+border-radius: 100%;
+}
+.botonredes img
+{
+  width: 15px;
+  height: 15px;
+}
+.botonredes:hover
+{
+background-color:rgb(22, 74, 150);
+border-radius: 100%;
+}
+.enlace-footer
+{
+  font-size: 15px;
+  color: rgb(61, 6, 69);
+  padding-right: 5px;
+  text-decoration: none;
+}
+.enlace-footer:hover
+{
+  color: rgb(80, 11, 99);
+  text-shadow: 0px 0px 5px rgb(162, 25, 218); 
+  text-decoration: underline;
+}
+table
+{
+  width: 90%;
+  margin: auto;
+}
+th.titulo
+{
+  height: 50px;
+}
+td.center
+{
+  text-align: center;
+  vertical-align: middle;
+}
+td
+{
+  padding: 5px;
+}
+tr:nth-child(odd)
+{
+  background-color: #2884c3;
+  color: rgb(5, 18, 64)
+}
+tr:nth-child(even)
+{
+  background-color: rgba(40, 156, 244, 0.89);
+  color: rgb(5, 18, 64)
+}
